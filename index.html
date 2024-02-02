@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali</title>
+    <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F2EFE5;
+            color: #333;
+        }
+
+        header {
+            background-color: #68B984;
+            color: #fff;
+            padding: 2em;
+            text-align: center;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        section {
+           max-width: 1200px;
+            margin: auto;
+            margin-top:20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+  	section_project {
+          max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+             margin: auto;
+            padding: 22px;
+            background-color:#fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+            border-radius: 7px;
+        }
+         .project-card {
+            padding: 20px;
+            background-color: #FFFFEC;
+            box-shadow: 0 0 10px rgba(0, 1, 0, 0.7);
+            border-radius: 18px;
+            text-align: center;
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .education-item {
+            margin-bottom: 20px;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .publications-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #739072;
+            color: #fff;
+        }
+       
+        
+        .styled-text-header-section {
+            color: #5F8D4E;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .styled-text-title {
+            color: #3A4F7A;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+         .styled-text-sub-title {
+            color: #503C3C;
+            font-size: 19px;
+        }
+
+         .styled-text-details {
+            color: #1B4242;
+            font-size: 16px;
+             margin: 8px;
+        }
+
+       ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            position: relative;
+            padding-left: 30px; /* Adjust as needed */
+            margin-bottom: 10px;
+        }
+
+        li:before {
+            content: '\2022'; /* Unicode character for a bullet point */
+            color: #4D4C7D; /* Customize the color */
+            font-size: 20px; /* Customize the font size */
+            position: absolute;
+            left: 0;
+        }
+        
+         a {
+            color: #3A4F7A;
+        }
+
+        a:hover {
+            color: #D63484;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ali Pourramezan Fard</h1>
+        <p>Denver, CO 80210 | Aliprf@gmail.com</p>
+        <p>
+            <a href="https://www.linkedin.com/in/aliprf/">LinkedIn</a> | <a href="https://github.com/aliprf">Github</a> | <a href="https://scholar.google.com/citations?user=96lS6HIAAAAJ&hl=en">Scholar</a>
+        </p>
+    </header>
+
+<section id="professional-experience" class="experience-item">
+        <p class="styled-text-header-section">About</p>
+        <hr>
+         <p class="styled-text-details">Dedicated researcher at the University of Denver's Computer Vision Lab, specializing in Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing. Led successful projects in Image Classification, Segmentation, Synthesis, Medical Image Analysis, Object Detection, Time-Series Analysis, and Sentiment Analysis. Possess a decade of experience in software design and development with strong problem-solving skills.</p>
+        
+        
+</section>
+        
+ <section id="professional-experience" class="experience-item">
+ 	   <p class="styled-text-header-section">Open Source Projects</p>
+ 	   		<hr>
+	 <section_project>
+	 
+
+
+		<!-- Project Card 1 -->
+		<div class="project-card">
+		    <h2 class="styled-text-title">GANalyzer</h2>
+		    <hr>
+		     <div style=" width: 200px; height: 200px; text-align: center; margin:auto; "   >
+			    <img style="margin-top:12px" width="190" height="190" src="https://github.com/aliprf/GANalyzer/blob/master/img/all.png?raw=true" alt="GANalyzer" class="project-image">
+    	    	    </div>
+		    <p class="styled-text-details">Analysis and Manipulation of GANs Latent Space for Controllable Face Synthesis</p>
+		    <a href="https://aliprf.github.io/GANalyzer/">Link</a>
+		</div>
+
+		<!-- Project Card 2-->
+		<div class="project-card">
+		    <h2 class="styled-text-title">ASMNet</h2>
+		    <hr>
+		     <div style=" width: 200px; height: 200px; text-align: center; margin:auto; "   >
+			    <img style=" margin-top:12px" width="190" height="190" src="https://github.com/aliprf/ASMNet/blob/master/documents/graphical_items_in_paper/arch.png?raw=true" alt="ASMNet" class="project-image">
+    	    	    </div>
+    	    	    
+		    <p class="styled-text-details">a Lightweight Deep Neural Network for Face Alignment and Pose Estimation </p>
+		    <a href="https://aliprf.github.io/ASMNet/">Link</a>
+		</div>
+
+
+		<!-- Project Card 3 -->
+		<div class="project-card">
+		    <h2 class="styled-text-title">KD-Loss</h2>
+		    <hr>
+		    <div style=" width: 200px; height: 200px; text-align: center; margin:auto; "   >
+			    <img style="margin-top:12px" width="150" height="180" src="https://github.com/aliprf/KD-Loss/blob/master/samples/general_framework-1.jpg?raw=true" alt="KD-Loss" class="project-image">
+	    	    </div>
+		    <p class="styled-text-details">Facial Landmark Points Detection Using Knowledge Distillation-Based Neural Networks </p>
+		    <a href="https://aliprf.github.io/KD-Loss/">Link</a>
+		</div>
+		
+
+		<!-- Project Card 4-->
+		<div class="project-card">
+		    <h2 class="styled-text-title">ACR-Loss</h2>
+		    <hr>
+		    <div style=" width: 200px; height: 200px; text-align: center; margin:auto; "   >
+			    <img style="margin-top:12px;" width="190" height="150" src="https://github.com/aliprf/ACR-Loss/blob/main/img/Screenshot from 2024-02-02 13-06-58.png?raw=true" alt="ACR-Loss" class="project-image">
+		    </div>
+
+		    <p class="styled-text-details">Adaptive Coordinate-based Regression Loss for Face Alignment </p>
+		    <a href="https://aliprf.github.io/ACR-Loss/">Link</a>
+		</div>
+		
+
+		<!-- Project Card 5 -->
+		<div class="project-card">
+		    <h2 class="styled-text-title">Ad-Corre</h2>
+		    <hr>
+		    <div style=" width: 200px; height: 200px; text-align: center; margin:auto; "   >
+			    <img style="margin-top:12px;" width="190" height="130" src="https://github.com/aliprf/Ad-Corre/blob/main/paper_graphical_items/fd_ed.jpg?raw=true" alt="Ad-Corre" class="project-image">
+		    </div>
+
+		    <p class="styled-text-details">Adaptive Correlation-Based Loss for Facial Expression Recognition in the Wild</p>
+		    <a href="https://aliprf.github.io/Ad-Corre/">Link</a>
+		</div>
+		
+			
+		<!-- Add more project cards as needed -->
+
+	    </section_project>
+      </section>
+
+    
+    <footer>
+        <p>Contact: aliprf@gmail.com | LinkedIn: <a href="#">linkedin.com/in/aliprf</a> | GitHub: <a href="#">github.com/aliprf</a></p>
+    </footer>
+    
+</body>
+</html>
